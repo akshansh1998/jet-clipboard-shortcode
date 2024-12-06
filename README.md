@@ -27,7 +27,7 @@ Instructions
 Changelog
 ---------
 
-### Version 1.1 (Updated Fork)
+### Version 1.1.3 (Updated Fork)
 
 -   Enhanced clipboard handling to remove HTML tags while preserving formatting like line breaks.
 -   Preserved original functionality, including the "copied" class feedback mechanism.
@@ -35,9 +35,9 @@ Changelog
 -   The "Copied Successfully!!" message is displayed after content is copied.
 -   Improved CSS transitions for a smoother visual feedback experience.
 
-### Version 1.0
+### Version 1.1.2
 
--   Initial release with basic shortcode functionality.
+-   Initial release with basic shortcode functionality. forked from RagnarLodbrok94
 
 Screenshots
 -----------
