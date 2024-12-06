@@ -1,7 +1,10 @@
+Jet Clipboard Shortcode Plugin
+==============================
+
 Description
 -----------
 
-Adds shortcode `[jet_clipboard]` to copy selected content into the clipboard buffer with improved functionality for plain-text copying.
+Adds shortcode `[jet_clipboard]` to copy selected content into the clipboard buffer with improved functionality for plain-text copying. This plugin lets you easily add a copy-to-clipboard feature to your content and customize the appearance.
 
 Args
 ----
@@ -28,8 +31,19 @@ Changelog
 
 -   Enhanced clipboard handling to remove HTML tags while preserving formatting like line breaks.
 -   Preserved original functionality, including the "copied" class feedback mechanism.
--   Improved error handling for undefined or empty content.
+-   The "Copy Text" label now appears alongside the icon.
+-   The "Copied Successfully!!" message is displayed after content is copied.
+-   Improved CSS transitions for a smoother visual feedback experience.
 
 ### Version 1.0
 
 -   Initial release with basic shortcode functionality.
+
+Screenshots
+-----------
+
+![Callback option]( screens/screen-01.jpg "Jet Clipboard for Shortcode widget" )
+> Jet Clipboard for Shortcode widget
+
+![Output example]( screens/screen-02.jpg "Jet Clipboard for Dynamic field" )
+> Jet Clipboard for Dynamic field
