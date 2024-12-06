@@ -1,4 +1,4 @@
-<div class="jet-clipboard" data-jet-clipboard="<?php echo htmlspecialchars($atts['copy_text'], ENT_QUOTES, 'UTF-8'); ?>">
+<div class="jet-clipboard" data-jet-clipboard="<?php echo $atts['copy_text'] ?>">
 	
 	<span class="jet-clipboard-content">
 		<?php echo $atts['label'] ?> 
