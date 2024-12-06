@@ -1,8 +1,16 @@
 'use strict';
 
 document.addEventListener('DOMContentLoaded', function () {
-  const onCLick = (content, node) => {
-    navigator.clipboard.writeText(content).then(() => {
+  const onClick = (content, node) => {
+    // Create a temporary element to parse HTML content
+    const tempDiv = document.createElement('div');
+    tempDiv.innerHTML = content;
+
+    // Extract plain text (preserve line breaks and spacing)
+    const plainText = tempDiv.innerText || tempDiv.textContent;
+
+    // Write to clipboard
+    navigator.clipboard.writeText(plainText).then(() => {
       let timerId;
       node.classList.add('copied');
 
@@ -30,6 +38,6 @@ document.addEventListener('DOMContentLoaded', function () {
       return;
     }
 
-    onCLick(content, node);
+    onClick(content, node);
   });
 });
